@@ -42,7 +42,7 @@ parser.add_argument('--exp_name', default='vanilla', type=str,
                     help='name of experiment for saving files')
 parser.add_argument('--num_workers', default=3, type=int,
                     help='how many workers to use for data loader')
-parser.add_argument('--imsize', default=64, type=int,
+parser.add_argument('--imsize', default=128, type=int,
                     help='what size to set images')
 args = parser.parse_args()
 
